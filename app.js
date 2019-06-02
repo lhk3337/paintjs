@@ -9,7 +9,7 @@ function onMouseMove(event) {
 }
 
 function onmousedown(event) {
-  console.log(event);
+  painting = true;
 }
 
 if (canvas) {
